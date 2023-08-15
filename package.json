@@ -4,7 +4,8 @@
   "description": "eslint profile",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "@superyou/eslint-config": "workspace:^",
+    "@superyou/eslint-config-base": "workspace:^",
     "@superyou/eslint-config-js": "workspace:^",
     "@superyou/eslint-config-node": "workspace:^"
   }

@@ -1,43 +1,21 @@
 module.exports = {
-  env: {},
-  reportUnusedDisableDirectives: true,
-  extends: [],
-  ignorePatterns: [
-    '*.min.*',
-    '*.d.ts',
-    'CHANGELOG.md',
-    'dist',
-    'LICENSE*',
-    'output',
-    'out',
-    'coverage',
-    'public',
-    'temp',
-    'package-lock.json',
-    'pnpm-lock.yaml',
-    'yarn.lock',
-    '__snapshots__',
-    // ignore for in lint-staged
-    '*.css',
-    '*.png',
-    '*.ico',
-    '*.toml',
-    '*.patch',
-    '*.txt',
-    '*.crt',
-    '*.key',
-    'Dockerfile',
-    // force include
-    '!.github',
-    '!.vitepress',
-    '!.vscode',
-    // force exclude
-    '**/.vitepress/cache',
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended"
   ],
-  plugins: [],
-  settings: {},
-  overrides: [],
-  rules: {
-    'no-var': 'off',
+  "parserOptions": {
+    // Only ESLint 6.2.0 and later support ES2020.
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "node/file-extension-in-import": ["error", "always"],
+    "node/prefer-global/buffer": ["error", "always"],
+    "node/prefer-global/console": ["error", "always"],
+    "node/prefer-global/process": ["error", "always"],
+    "node/prefer-global/url-search-params": ["error", "always"],
+    "node/prefer-global/url": ["error", "always"],
+    "node/prefer-promises/dns": "error",
+    "node/prefer-promises/fs": "error"
   }
 }

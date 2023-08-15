@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@superyou/eslint-config-js',
+    "@superyou/eslint-config-js"
   ],
 }
