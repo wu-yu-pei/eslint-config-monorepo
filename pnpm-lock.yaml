@@ -7,37 +7,30 @@ importers:
       '@superyou/eslint-config':
         specifier: workspace:^
         version: link:packages/eslint-config
-      '@superyou/eslint-config-base':
-        specifier: workspace:^
-        version: link:packages/eslint-base
-      '@superyou/eslint-config-js':
-        specifier: workspace:^
-        version: link:packages/eslint-js
-      '@superyou/eslint-config-node':
-        specifier: workspace:^
-        version: link:packages/eslint-node
     devDependencies:
       eslint:
         specifier: ^8.45.0
         version: 8.45.0
+      eslint-plugin-node:
+        specifier: ^11.1.0
+        version: 11.1.0(eslint@8.45.0)
+      eslint-plugin-vue:
+        specifier: ^9.17.0
+        version: 9.17.0(eslint@8.45.0)
 
   packages/eslint-base: {}
 
   packages/eslint-config:
     dependencies:
-      '@superyou/eslint-config-js':
+      '@superyou/eslint-config-base':
         specifier: workspace:^
-        version: link:../eslint-js
-
-  packages/eslint-js: {}
+        version: link:../eslint-base
 
   packages/eslint-node:
     devDependencies:
       eslint-plugin-node:
         specifier: ^11.1.0
         version: 11.1.0(eslint@8.45.0)
-
-  packages/eslint-ts: {}
 
   packages/eslint-vue:
     devDependencies:

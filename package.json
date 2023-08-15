@@ -2,20 +2,18 @@
   "name": "@superyou/eslint-config-monorepo",
   "version": "1.0.0",
   "description": "eslint profile",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "release": "pnpm -r publish"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.45.0"
+    "eslint": "^8.45.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "^9.17.0"
   },
   "dependencies": {
-    "@superyou/eslint-config": "workspace:^",
-    "@superyou/eslint-config-base": "workspace:^",
-    "@superyou/eslint-config-js": "workspace:^",
-    "@superyou/eslint-config-node": "workspace:^"
+    "@superyou/eslint-config": "workspace:^"
   }
 }

@@ -1,6 +1,3 @@
 {
   "extends": "@superyou"
-  // "extends": "@superyou/eslint-config-js"
-  // "extends": "@superyou/eslint-config-node"
-  // "extends": "@superyou/eslint-config-base"
 }

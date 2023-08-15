@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@superyou/eslint-config-js": "workspace:^"
+    "@superyou/eslint-config-base": "workspace:^"
   }
 }
