@@ -1,0 +1,19 @@
+{
+  "name": "@superyou/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "eslint profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  },
+  "dependencies": {
+    "@superyou/eslint-config": "workspace:^",
+    "@superyou/eslint-config-js": "workspace:^",
+    "@superyou/eslint-config-node": "workspace:^"
+  }
+}

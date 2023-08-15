@@ -1,0 +1,5 @@
+{
+  // "extends": "@superyou/eslint-config"
+  // "extends": "@superyou/eslint-config-js"
+  // "extends": "@superyou/eslint-config-node"
+}
