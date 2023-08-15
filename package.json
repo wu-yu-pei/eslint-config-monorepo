@@ -1,6 +1,6 @@
 {
   "name": "@superyou/eslint-config-monorepo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint profile",
   "main": "",
   "scripts": {
@@ -12,6 +12,9 @@
     "eslint": "^8.45.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-vue": "^9.17.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.45.0"
   },
   "dependencies": {
     "@superyou/eslint-config": "workspace:^"
