@@ -1,17 +1,12 @@
 {
   "name": "@superyou/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "eslint": "^8.45.0"
-  },
   "dependencies": {
     "@superyou/eslint-config-base": "workspace:^"
   }

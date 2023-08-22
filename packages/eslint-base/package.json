@@ -1,15 +1,10 @@
 {
   "name": "@superyou/eslint-config-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "peerDependencies": {
-    "eslint": "^8.45.0"
-  }
+  "license": "ISC"
 }

@@ -1,3 +1,6 @@
 {
-  "extends": "@superyou"
+  "extends": "@superyou/eslint-config",
+  "rules": {
+    "quotes": ["error", "double"]
+  }
 }

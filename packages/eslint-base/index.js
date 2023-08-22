@@ -1,13 +1,10 @@
 module.exports = {
+  globals: {},
   env: {
     es6: true,
-    browser: true,
-    node: true,
   },
-  extends: [
-    "eslint:recommended",
-  ],
+  extends: ['eslint:recommended'],
   parserOptions: {},
   plugins: [],
-  rules: {}
-}
+  rules: {},
+};

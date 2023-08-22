@@ -1,6 +1,6 @@
 {
   "name": "@superyou/eslint-config-monorepo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint profile",
   "main": "",
   "scripts": {
@@ -9,11 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-vue": "^9.17.0"
-  },
-  "peerDependencies": {
     "eslint": "^8.45.0"
   },
   "dependencies": {
